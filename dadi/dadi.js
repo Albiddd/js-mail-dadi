@@ -1,7 +1,7 @@
  document.querySelector('input[type="submit"').addEventListener("click",function(){
     // GENERO I DUE DADI
-	var num1 = Math.round(Math.random()*6);
-	var num2 = Math.round(Math.random()*6);
+	var num1 = Math.round(Math.random()*5+1);
+	var num2 = Math.round(Math.random()*5+1);
 	
     // STAMPO IL RISULTATO DEI DADI
 	document.getElementById("numero1").innerHTML = "Hai ottenuto: " + num1;
