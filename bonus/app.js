@@ -20,7 +20,7 @@ if ((Number.isInteger(numElementi)) && (Number.isInteger(numEstrazioni)) ){
     console.log(myArray)
     
     // STAMPO GLI ELEMENTI PARTENDO DALLA FINE DELL'ARRAY
-    for(i=(numElementi-1); i>=numEstrazioni; i-- ){
+    for(i=(numElementi-1); i>=(numElementi-numEstrazioni); i-- ){
         console.log(myArray[i])
     }
 }
